@@ -1,0 +1,44 @@
+.root {
+    -fx-font-family: "Arial";
+}
+
+.header-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.mode-button {
+    -fx-font-size: 14px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+}
+
+.player-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.score-label {
+    -fx-font-size: 14px;
+}
+
+.game-board {
+    -fx-padding: 10px;
+    -fx-spacing: 5px;
+    -fx-background-color: #333333;
+    -fx-border-color: #000000;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+.game-cell {
+    -fx-font-size: 24px;
+    -fx-min-width: 100px;
+    -fx-min-height: 100px;
+    -fx-background-color: #eeeeee;
+    -fx-border-color: #000000;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
